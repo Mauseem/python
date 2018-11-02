@@ -1,4 +1,4 @@
-parola = "karalama98"
+parola = ""
 soru = input("parolanız: ")
 if soru == parola:
     print("doğru parola!")
