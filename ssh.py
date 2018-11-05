@@ -9,7 +9,7 @@ class ssh:
         max = 100
         succeed = False
         for x in range(min, max + 1):
-            ret = os.system("ssh -p 331 auak@%s " % hostname)
+            ret = os.system("ssh -tt -p 22 auak@%s " % hostname)
             if ret == 0:
                 print ("ssh  succeeds in %s try on host [%s]" % (x, hostname))
                 succeed = True
