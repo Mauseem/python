@@ -11,13 +11,13 @@ class ssh:
         max = 100
         succeed = False
         for x in range(min, max + 1):
-            ret = os.system("ssh -tt -p %s  %s -l %s   ")
+            ret = os.system("ssh -tt -p %s  %s -l %s   ") %(port, hostname, username)
             if ret == 0:
                 print ("ssh  succeeds in %s try on host [%s]" % (x, hostname))
                 succeed = True
                 break
             else:
-
+                print (
                     "ssh failed on host [%s]. will retry 1 seconds later. [trying %s / %s]" % (hostname, x, max))
                 time.sleep(1)
         if not succeed:
@@ -27,5 +27,5 @@ class ssh:
 
 connection = ssh()
 
-connection.ssh_test(22,"dovpn.vm64.info", "aak")
+connection.ssh_test(22)
 
