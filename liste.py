@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 liste = ["kerem", "busra", "test", "mesut", "gunay"]
 
-
+#liste = list
 
 print(liste.count("busra"))
 print(liste[0])
