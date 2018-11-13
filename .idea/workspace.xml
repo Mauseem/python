@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/metot-dizi.py" afterDir="false" />
-    </list>
+    <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/metot-dizi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -195,10 +193,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1763" />
-    <option name="y" value="-85" />
-    <option name="width" value="1920" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="51" />
+    <option name="width" value="1547" />
     <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -400,18 +398,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1763" y="-85" width="1920" height="1058" extended-state="0" />
+    <frame x="1687" y="-90" width="1920" height="1058" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24433912" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32919255" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50026894" side_tool="true" weight="0.29192546" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49973103" visible="true" weight="0.4057971" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49973103" weight="0.4057971" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39958593" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -611,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/metot-dizi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
