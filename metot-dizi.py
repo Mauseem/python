@@ -20,15 +20,19 @@
 #     if i.startswith("e"):
 #         print i.replace("e", "z")
 
+count = 1
 
 name = raw_input("lütfen isminizi giriniz")
-if name.isspace():
+while  name.isspace():
     print"lütfen boş geçmeyiniz"
-    name = raw_input("lütfen isminizi griniz")
-    if name.isspace():
-        print   "isim olarak boş geçemezsiniz, programdan çıkılıyor"
-        exit(0)
-elif not name.isspace() and name.startswith("a") and name.endswith("m"):
+    if count >= 3:
+        print("3 kez hatalı giriş yaptınız")
+        exit (0)
+    else:
+        name = raw_input("lütfen isminizi griniz")
+        count += 1
+
+if  name.startswith("a") and name.endswith("m"):
     print name.capitalize()
 else:
     print "isminiz tespit edilemedi"
