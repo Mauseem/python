@@ -2,14 +2,18 @@
 # -*- coding: utf-8 -*-
 
 class Oyun:
-	def __init__(self):
-		enerji = 50
-		para = 100
-		fabrika = 4
-		isci = 10
-		print "enerji:", enerji
-		print "para:", para
-		print "fabrika:", fabrika
-		print "işçi:", isci
+    def __init__(self):
+        self.enerji = 50
+        self.para = 100
+        self.fabrika = 4
+        self.isci = 10
+
+    def goster(self):
+        print "enerji:", self.enerji
+        print "para:", self.para
+        print  "fabrika:", self.fabrika
+        print "işçi:",  self.isci
 
 macera = Oyun()
+macera.goster()
+
