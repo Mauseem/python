@@ -171,7 +171,7 @@ gitPull() {
 
 unlockOpt() {
 # make paths writable before local rsync
-    chattr -R -i /opt/sahibinden/system/ && chattr -R -i /opt/sahibinden/tools/
+    sudo chattr -R -i /opt/sahibinden/system/ && sudo chattr -R -i /opt/sahibinden/tools/
 
 
 }
@@ -184,11 +184,10 @@ rsyncLocal() {
 }
 lockOpt() {
 # lock paths for write after rsync;  even for root #
-    chattr -R +i /opt/sahibinden/system/  && chattr -R +i /opt/sahibinden/tools/
+    sudo chattr -R +i /opt/sahibinden/system/  && sudo chattr -R +i /opt/sahibinden/tools/
 }
 gitPullAllRepos() {
     result="0"
-    unlockOpt &&
     if [[ "$noGit" != "true" ]]
     then
         echo
