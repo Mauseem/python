@@ -196,7 +196,7 @@ gitPullAllRepos() {
         gitPull "$SYSTEM" || result="1"
         gitPull "$TOOLS"  || result="1"
 
-         unlockOpt && rsyncLocal  &&  lockOpt
+         rsyncLocal
 #        gitPullQuiet "/opt/sahibinden/system"
 #        gitPullQuiet "/opt/sahibinden/tools"
 
