@@ -1,33 +1,58 @@
-# from fabric.api import cd, env, prefix, run, task
+# # started = False
+# # while True:
+# #     command = input('> ').lower()
+# #
+# #     if command == 'help':
+# #        print('''
+# # start - to start the car
+# # stop - to stop the car
+# # quit - to exit''')
+# #     elif command == 'start':
+# #         if started :
+# #             print('car already started')
+# #         else:
+# #             started = True
+# #             print('car started')
+# #
+# #     elif command == 'stop':
+# #         if not started:
+# #             print('car already stopped')
+# #         else:
+# #             started = False
+# #             print('car stopped')
+# #     elif command == 'quit':
+# #         print('Program terminated')
+# #         break
+# #     else:
+# #         print(' I dont understand that')
 #
-# env.hosts = ['my_server1', 'my_server2']
+# for item in 'pytHOn'.upper():
+#     print(item)
+
+# prices = [10,20,30]
 #
-# @task
-# def memory_usage():
-#     run('free -m')
-#
-# @task
-# def deploy():
-#     with cd('/var/www/project-env/project'):
-#         with prefix('. ../bin/activate'):
-#             run('git pull')
-#             run('touch app.wsgi')
+# total = 0
+# for item in prices:
+#     total += item
+# print(f'Total:  {total}')
 
 
+# numbers = [5,2,5,2,2]
+# for x_count in numbers:
+#     for y in str(x_count):
+#         print(int(y) * 'X')
+#
+# numbers = [5,2,5,2,2]
+# for x_count in numbers:
+#     output = ''
+#     for count in range(x_count):
+#         output +=  'X'
+#     print(output)
 
-while True:
-    command = input('>').lower()
-    if command == 'help':
-       print('''
-start - to start the car
-stop - to stop the car
-quit - to exit''')
-    elif command == 'start':
-        print('car started')
-    elif command == 'stop':
-        print('car stopped')
-    elif command == 'quit':
-        print('Program terminated')
-        break
-    else:
-        print(' I dont understand that')
+numbers = [0,3,5,7,88,44]
+
+max = numbers[0]
+for item in numbers:
+    if item > max:
+        max = item
+print(max)
