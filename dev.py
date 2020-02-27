@@ -16,16 +16,24 @@
 
 
 while True:
+    state = []
     command = input('>').lower()
     if command == 'help':
        print('''
 start - to start the car
 stop - to stop the car
 quit - to exit''')
-    elif command == 'start':
+    elif command == 'start' and state == 0:
+        state = 1
         print('car started')
-    elif command == 'stop':
+    elif command == 'start' and state == 1:
+        print('car already started')
+    elif command == 'stop' and state == 1:
+        state = 0
         print('car stopped')
+    elif command == 'stop' and state == 0:
+        print('car already stopped')
+
     elif command == 'quit':
         print('Program terminated')
         break
