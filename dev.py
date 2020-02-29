@@ -48,11 +48,20 @@
 #     for count in range(x_count):
 #         output +=  'X'
 #     print(output)
+#
+# numbers = [0,3,5,7,88,44]
+#
+# max = numbers[0]
+# for item in numbers:
+#     if item > max:
+#         max = item
+# print(max)
 
-numbers = [0,3,5,7,88,44]
+numbers = [1,1,2,2,3,4,5,6]
 
-max = numbers[0]
-for item in numbers:
-    if item > max:
-        max = item
-print(max)
+#remove number numbers.remove(item)
+for x in numbers:
+    occurence = numbers.count(x)
+    if occurence > 1:
+        numbers.remove(x)
+print(numbers)
