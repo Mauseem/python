@@ -56,12 +56,29 @@
 #     if item > max:
 #         max = item
 # print(max)
+#
+# numbers = [1,1,2,2,3,4,5,6]
+#
+# #remove number numbers.remove(item)
+# # for x in numbers:
+# #     occurence = numbers.count(x)
+# #     if occurence > 1:
+# #         numbers.remove(x)
+# # print(numbers)
+# uniques = []
+# for number in numbers:
+#     if number not in uniques:
+#         uniques.append(number)
+# print(uniques)
 
-numbers = [1,1,2,2,3,4,5,6]
+numbers = {"1": "One",
+           "2": "Two",
+            "3": "Three",
+            "4": "Four",
+             "5": "Five"}
 
-#remove number numbers.remove(item)
-for x in numbers:
-    occurence = numbers.count(x)
-    if occurence > 1:
-        numbers.remove(x)
-print(numbers)
+code = input('Phone:')
+output = ""
+for item in code:
+    output += numbers.get(item, '!') + '   '
+print(output)
