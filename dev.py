@@ -95,19 +95,31 @@
 # print(square(32))
 
 
-def emoji_converter(message):
-    words = message.split(" ")
-    emojis = {
-        ":)": "😀",
-        ":(": "😞"
-    }
-    output = ""
-    for word in words:
-        output += emojis.get(word, word) + " "
-    return output
+# def emoji_converter(message):
+#     words = message.split(" ")
+#     emojis = {
+#         ":)": "😀",
+#         ":(": "😞"
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+#
+#
+# print(emoji_converter('Selam kerem umarim bugun guzel olur :) '))
 
+### TRY Catch
 
-print(emoji_converter('Selam kerem umarim bugun guzel olur :) '))
+try:
+    age = int(input('Age: '))
+    income = 20000
+    risk = income / age
+    print(risk)
+except ZeroDivisionError:
+    print('Age must be grater than 0')
+except ValueError:
+    print('Invalid value')
 
 
 
