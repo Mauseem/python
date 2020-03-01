@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev.py" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +27,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.dev">
     <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -155,11 +145,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dersler-devan" />
-      <item itemvalue="Python.url" />
-      <item itemvalue="Python.elastic" />
       <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.dersler-devan" />
       <item itemvalue="Python.dev" />
+      <item itemvalue="Python.elastic" />
+      <item itemvalue="Python.url" />
     </list>
     <recent_temporary>
       <list>
@@ -255,6 +245,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kerem python dersleri" />
     <option name="LAST_COMMIT_MESSAGE" value="kerem python dersleri" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="175" key="SettingsEditor" timestamp="1583054796191">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="363" y="175" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1583054796191" />
   </component>
   <component name="masterDetails">
     <states>
