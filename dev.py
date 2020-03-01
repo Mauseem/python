@@ -98,7 +98,8 @@
 def emoji(message):
     words = message.split(" ")
     emojis = {
-        ":)":
+        ":)": "😀",
+        ":(": "😞"
     }
 
 
