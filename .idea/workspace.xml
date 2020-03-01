@@ -145,11 +145,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.decorator" />
       <item itemvalue="Python.dersler-devan" />
-      <item itemvalue="Python.dev" />
-      <item itemvalue="Python.elastic" />
       <item itemvalue="Python.url" />
+      <item itemvalue="Python.elastic" />
+      <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.dev" />
     </list>
     <recent_temporary>
       <list>
