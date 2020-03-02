@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +39,6 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.dev">
     <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -263,10 +249,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="kerem python dersleri" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="175" key="SettingsEditor" timestamp="1583054796191">
-      <screen x="44" y="23" width="1636" height="1027" />
+    <state x="431" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1583175835985">
+      <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="363" y="175" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1583054796191" />
+    <state x="431" y="183" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583175835985" />
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583175690563">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583175690563" />
   </component>
   <component name="masterDetails">
     <states>
