@@ -153,7 +153,11 @@
 # dog1.walk()
 # dog1.bark()
 
+from util import find_max
 
+numbers = [10,12,13,2,3,4,22]
+max = find_max(numbers)
 
+print(max)
 
 
