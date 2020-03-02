@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python3/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python3/.ipynb_checkpoints/head.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python3/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python3/minioupload.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +42,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunManager" selected="Python.dev">
     <configuration name="decorator" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -147,11 +154,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.dersler-devan" />
-      <item itemvalue="Python.url" />
-      <item itemvalue="Python.elastic" />
       <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.dersler-devan" />
       <item itemvalue="Python.dev" />
+      <item itemvalue="Python.elastic" />
+      <item itemvalue="Python.url" />
     </list>
     <recent_temporary>
       <list>
@@ -216,17 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1582834505977</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="kerem python dersleri">
+      <created>1583175939032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583175939032</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.configurationType" implementationName="BashConfigurationType" />
@@ -249,27 +254,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="kerem python dersleri" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="720" y="391" width="539" height="332" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1583178008056">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="720" y="391" width="539" height="332" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583178008056" />
     <state x="599" y="97" width="782" height="919" key="CommitChangelistDialog2" timestamp="1583175938896">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="599" y="97" width="782" height="919" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1583175938896" />
-    <state x="431" y="183" width="1022" height="737" key="SettingsEditor" timestamp="1583175835985">
+    <state x="868" y="257" width="488" height="520" key="FileChooserDialogImpl" timestamp="1583178005673">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state x="868" y="257" width="488" height="520" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1583178005673" />
+    <state x="588" y="125" width="1022" height="737" key="SettingsEditor" timestamp="1583178135455">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="363" y="175" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1583054796191" />
-    <state x="431" y="183" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583175835985" />
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583175950409">
+    <state x="588" y="125" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1583178135455" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1583175983931">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1583175950409" />
-    <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583175690563">
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1583175983931" />
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583178062675">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583175690563" />
-    <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583175944086">
+    <state x="651" y="380" key="com.intellij.ide.util.TipDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1583178062675" />
+    <state x="763" y="473" width="515" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583178225659">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="763" y="473" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1583175944086" />
+    <state x="763" y="473" width="515" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1583178225659" />
   </component>
   <component name="masterDetails">
     <states>
