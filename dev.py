@@ -110,32 +110,48 @@
 # print(emoji_converter('Selam kerem umarim bugun guzel olur :) '))
 
 ### TRY Catch
-
-try:
-    age = int(input('Age: '))
-    income = 20000
-    risk = income / age
-    print(risk)
-except ZeroDivisionError:
-    print('Age must be grater than 0')
-except ValueError:
-    print('Invalid value')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#
+# try:
+#     age = int(input('Age: '))
+#     income = 20000
+#     risk = income / age
+#     print(risk)
+# except ZeroDivisionError:
+#     print('Age must be grater than 0')
+# except ValueError:
+#     print('Invalid value')
+#
+#
+#
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def talk(self, message):
+#         self.message = message
+#         print(message)
+#
+# human = Person(name='kerem')
+# human.talk(message='selam dunya')
 
 
+
+#inheritance lesson
+
+class Mammal:
+    def walk(self):
+        print("walk")
+
+class Dog(Mammal):
+    def bark(self):
+        print("bark")
+
+
+class Cat(Mammal):
+    pass
+
+dog1 = Dog()
+dog1.walk()
+dog1.bark()
 
 
 
