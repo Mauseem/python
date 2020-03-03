@@ -137,23 +137,27 @@
 
 #inheritance lesson
 
-class Mammal:
-    def walk(self):
-        print("walk")
+# class Mammal:
+#     def walk(self):
+#         print("walk")
+#
+# class Dog(Mammal):
+#     def bark(self):
+#         print("bark")
+#
+#
+# class Cat(Mammal):
+#     pass
+#
+# dog1 = Dog()
+# dog1.walk()
+# dog1.bark()
 
-class Dog(Mammal):
-    def bark(self):
-        print("bark")
+from util import find_max
 
+numbers = [10,12,13,2,3,4,22]
+max = find_max(numbers)
 
-class Cat(Mammal):
-    pass
+print(max)
 
-dog1 = Dog()
-dog1.walk()
-dog1.bark()
-
-
-
-
-
+import ecommerce.shipping
