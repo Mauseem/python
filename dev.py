@@ -161,15 +161,20 @@
 # print(max)
 #
 # import ecommerce.shipping
-import random
+# import random
+#
+#
+# class Dice:
+#     def roll(self):
+#         a = (random.randint(1, 6))
+#         b = (random.randint(1, 6))
+#         return a,b
+#
+#
+# dice = Dice()
+# print(dice.roll())
+from pathlib import Path
+path = Path()
 
-
-class Dice:
-    def roll(self):
-        a = (random.randint(1, 6))
-        b = (random.randint(1, 6))
-        return a,b
-
-
-dice = Dice()
-print(dice.roll())
+for file in path.glob('*'):
+    print(file)
