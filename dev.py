@@ -153,11 +153,23 @@
 # dog1.walk()
 # dog1.bark()
 
-from util import find_max
+# from util import find_max
+#
+# numbers = [10,12,13,2,3,4,22]
+# max = find_max(numbers)
+#
+# print(max)
+#
+# import ecommerce.shipping
+import random
 
-numbers = [10,12,13,2,3,4,22]
-max = find_max(numbers)
 
-print(max)
 
-import ecommerce.shipping
+class Dice:
+    def roll(self):
+        a = (random.randint(1, 6))
+        b = (random.randint(1, 6))
+        return a,b
+
+dice = Dice()
+print(dice.roll())
