@@ -29,7 +29,7 @@ def faiz_hesapla():
     print(f'Toplam Odenen Kira = {zaman}  yil icin {fkumulatif} lira')
 
 
-birikim_hesapla()
+#birikim_hesapla()
 faiz_hesapla()
 
 # def masraf():
