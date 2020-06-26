@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/dev.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +30,16 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -224,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582834505977</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/kolpator/python&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1583262861661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583262861661</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -254,7 +267,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kerem python dersleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="kerem python dersleri" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/kolpator/python&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/kolpator/python&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="175" key="SettingsEditor" timestamp="1583054796191">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="363" y="175" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1583054796191" />
   </component>
   <component name="masterDetails">
     <states>

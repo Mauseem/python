@@ -95,9 +95,95 @@
 # print(square(32))
 
 
-def emoji(message):
-    words = message.split(" ")
-    emojis = {
-        ":)": "😀",
-        ":(": "😞"
-    }
+# <<<<<<< HEAD
+# def emoji(message):
+#     words = message.split(" ")
+#     emojis = {
+#         ":)": "😀",
+#         ":(": "😞"
+#     }
+# =======
+# def emoji_converter(message):
+#     words = message.split(" ")
+#     emojis = {
+#         ":)": "😀",
+#         ":(": "😞"
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+#
+#
+# print(emoji_converter('Selam kerem umarim bugun guzel olur :) '))
+
+### TRY Catch
+#
+# try:
+#     age = int(input('Age: '))
+#     income = 20000
+#     risk = income / age
+#     print(risk)
+# except ZeroDivisionError:
+#     print('Age must be grater than 0')
+# except ValueError:
+#     print('Invalid value')
+#
+#
+#
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def talk(self, message):
+#         self.message = message
+#         print(message)
+#
+# human = Person(name='kerem')
+# human.talk(message='selam dunya')
+
+
+
+#inheritance lesson
+
+# class Mammal:
+#     def walk(self):
+#         print("walk")
+#
+# class Dog(Mammal):
+#     def bark(self):
+#         print("bark")
+#
+#
+# class Cat(Mammal):
+#     pass
+#
+# dog1 = Dog()
+# dog1.walk()
+# dog1.bark()
+
+# from util import find_max
+#
+# numbers = [10,12,13,2,3,4,22]
+# max = find_max(numbers)
+#
+# print(max)
+#
+# import ecommerce.shipping
+# import random
+#
+#
+# class Dice:
+#     def roll(self):
+#         a = (random.randint(1, 6))
+#         b = (random.randint(1, 6))
+#         return a,b
+#
+#
+# dice = Dice()
+# # print(dice.roll())
+# from pathlib import Path
+# path = Path()
+#
+# for file in path.glob('*'):
+#     print(file)
+# >>>>>>> b4b354d286fe17c969a0e94555dac00abced25ba
