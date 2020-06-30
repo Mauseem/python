@@ -3,15 +3,15 @@ def birikim_hesapla():
     aylik_gelir = int(input('aylik toplm gelirinizi girini ormegin 120000   > '))
     anapara = aylik_gelir * 12
     zamorani = float(input('lutfen zam oraninini giriniz ornegin 0.18  >   '))
-    for x in range(1, 11, 1):
+    zaman = int(input('lutfen hesaplama suresini belirtiniz, ornegin  dort yil icin  4 girebilirsiniz >   '))
+    for x in range(1, zaman+1, 1):
         yillikzam = anapara * zamorani
         #zamlimaas = anapara + yillikzam
         print(f' yillik toplam gelir {anapara} lira')
         anapara += yillikzam
         bkumulatif += anapara
-    print(f' 10 yillik toplam   gelir {bkumulatif}  lira')
-
-
+    print(f' %s yillik toplam   gelir {bkumulatif}  lirasidir' % zaman)
+    secim()
 
 def faiz_hesapla():
     fkumulatif = 0
@@ -27,14 +27,19 @@ def faiz_hesapla():
         print(f'bu yil yapilan zam  {round(yillikzam)} lira')
         print(f'yeni kira {round(aylik_kira)} lira  {x+1}.yil')
     print(f'Toplam Odenen Kira = {zaman}  yil icin {fkumulatif} lira')
+    secim()
 
+def secim():
+    response = int(input('Birikimlerinizi mi yoksa, kira giderinizi mi hesaplamak istersiniz ? birikim icin 1 kira icin 2 tusuna basiniz, cikmak icin 3 tusuna basiniz     '))
+    if response == 1:
+        birikim_hesapla()
+    elif response == 2:
+        faiz_hesapla()
+    elif response == 3:
+        exit()
+    else:
+        print('lutfen 1 yada 2 seciniz, cikmak icin 3 seciniz')
 
-#birikim_hesapla()
-faiz_hesapla()
-
-# def masraf():
-#     birikim_hesapla()
-#     faiz_hesapla()
-#
+secim()
 
 
