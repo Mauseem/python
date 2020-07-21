@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="kerem python dersleri">
       <change afterPath="$PROJECT_DIR$/python3/socksMerchant.py" afterDir="false" />
+=======
+    <list default="true" id="fd619115-7866-4686-ab4d-fbfaab556d3b" name="Default Changelist" comment="">
+>>>>>>> origin/master
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +41,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.socksMerchant">
@@ -149,10 +154,14 @@
     </configuration>
     <list>
       <item itemvalue="Python.decorator" />
+      <item itemvalue="Python.dersler-devan" />
       <item itemvalue="Python.dev" />
       <item itemvalue="Python.elastic" />
       <item itemvalue="Python.url" />
+<<<<<<< HEAD
       <item itemvalue="Python.socksMerchant" />
+=======
+>>>>>>> origin/master
     </list>
     <recent_temporary>
       <list>
@@ -217,12 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1582834505977</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00007" summary="kerem python dersleri">
       <created>1583054881806</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1583054881806</updated>
+=======
+    <task id="LOCAL-00007" summary="Merge branch 'master' of https://github.com/kolpator/python&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1583262861661</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583262861661</updated>
+>>>>>>> origin/master
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -253,9 +271,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kerem python dersleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="kerem python dersleri" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/kolpator/python&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/kolpator/python&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="562" y="187" key="CommitChangelistDialog2" timestamp="1594382128208">
       <screen x="50" y="23" width="1870" height="1177" />
     </state>
@@ -280,6 +300,12 @@
       <screen x="50" y="23" width="1870" height="1177" />
     </state>
     <state x="601" y="292" width="670" height="676" key="search.everywhere.popup/50.23.1870.1177@50.23.1870.1177" timestamp="1594372972471" />
+=======
+    <state x="441" y="189" key="SettingsEditor" timestamp="1593246646691">
+      <screen x="0" y="28" width="1920" height="1052" />
+    </state>
+    <state x="441" y="189" key="SettingsEditor/0.28.1920.1052@0.28.1920.1052" timestamp="1593246646691" />
+>>>>>>> origin/master
   </component>
   <component name="masterDetails">
     <states>

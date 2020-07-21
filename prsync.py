@@ -91,24 +91,24 @@ MSG_PROGRESS = 12
 
 # pylint: disable=wrong-import-position
 
-import os
-import sys
-import platform
 import datetime
-import tempfile
-import shutil
 import gzip
-import time
-import multiprocessing
-import traceback
-import shlex
-import subprocess
-import threading
 import itertools
+import multiprocessing
+import os
+import platform
 import random
-import unittest
+import shlex
+import shutil
 import signal
+import subprocess
+import sys
+import tempfile
+import threading
+import time
 import timeit
+import traceback
+import unittest
 
 STDOUT_ENCODING = sys.stdout.encoding if None else 'utf8'
 
