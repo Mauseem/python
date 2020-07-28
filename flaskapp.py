@@ -80,6 +80,7 @@ def secim():
              """
     response = request.args.get('secim')
     if response == 1:
+        pass
 
     elif response == 2:
         faiz_hesapla()
