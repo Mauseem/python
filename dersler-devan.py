@@ -11,4 +11,4 @@
 #     for v in a:
 #         print v.rjust(8),
 
-print '{} ve {} iyi bir ikilidir'.format('python', 'django')
+print('{} ve {} iyi bir ikilidir'.format('python', 'django'))
