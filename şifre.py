@@ -22,4 +22,4 @@ sozluk = {"a": "y", "b": "z", "c": "a",
 sifresiz_metin = ""
 for harf in sifreli_metin:
     sifresiz_metin += sozluk.get(harf, harf)
-print sifresiz_metin
+print(sifresiz_metin)
